@@ -1,0 +1,12 @@
+{
+	"name": "fcc-vanilla-react-talk",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/cauldyclark15/fcc-vanilla-react-talk.git",
+	"author": "cauldyclark15 <jcing.jc@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "^1.18.2",
+		"express": "^4.16.2"
+	}
+}

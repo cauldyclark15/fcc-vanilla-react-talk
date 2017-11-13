@@ -1,0 +1,67 @@
+body,
+html {
+	height: 100%;
+	display: grid;
+	font-family: 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+		'Helvetica Neue', sans-serif;
+}
+
+.login-form {
+	margin: 300px auto 0;
+	width: 300px;
+	max-width: 400px;
+	z-index: 100;
+	margin: 0 auto;
+	padding-top: 70px;
+	text-align: center;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-control {
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #e5e6e7;
+	border-radius: 1px;
+	color: inherit;
+	display: block;
+	padding: 6px 12px;
+	width: 274px !important;
+	height: 34px;
+	font-size: 14px;
+	line-height: 1.5;
+	box-shadow: none;
+}
+
+.login-btn {
+	background-color: #1ab394;
+	border-color: #1ab394;
+	color: #ffffff;
+	border-radius: 3px;
+	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	width: 100% !important;
+}
+
+.login-form > #loginForm {
+	margin-top: 15px;
+}
+
+.login-form > form > .btn-submit {
+	width: 100%;
+}
+
+.addForm {
+	margin-bottom: 20px;
+}
