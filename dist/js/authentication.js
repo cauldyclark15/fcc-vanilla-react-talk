@@ -11,5 +11,11 @@
 
 			return window.location.replace('/');
 		}
+
+		const errorText = document.createTextNode('Nah, its Teardrop');
+		const pTag = document.createElement('p');
+		pTag.appendChild(errorText);
+
+		return loginForm.appendChild(pTag);
 	});
 })();
