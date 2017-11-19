@@ -12,9 +12,17 @@
 			return window.location.replace('/');
 		}
 
+		const errorMessage = document.getElementById('errorMessage');
+
+		if (errorMessage) {
+			return null;
+		}
+
 		const errorText = document.createTextNode('Nah, its Teardrop');
 		const pTag = document.createElement('p');
 		pTag.appendChild(errorText);
+		pTag.id = 'errorMessage';
+		pTag.className = 'error';
 
 		return loginForm.appendChild(pTag);
 	});

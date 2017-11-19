@@ -65,3 +65,7 @@ html {
 .addForm {
 	margin-bottom: 20px;
 }
+
+.error {
+	color: tomato;
+}
