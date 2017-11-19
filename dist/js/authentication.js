@@ -1,3 +1,7 @@
 (function init() {
-	console.log('hi i am from browser');
+	const loginForm = document.getElementById('loginForm');
+
+	loginForm.addEventListener('submit', event => {
+		console.log('+++++++', event.target.teardrop.value);
+	});
 })();
