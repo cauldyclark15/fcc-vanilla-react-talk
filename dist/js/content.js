@@ -6,7 +6,7 @@
 		});
 })();
 
-function createRowsInBody(items = []) {
+const createRowsInBody = function(items = []) {
 	const userTableBody = document.getElementById('userTableBody');
 
 	items.forEach(item => {
@@ -30,4 +30,4 @@ function createRowsInBody(items = []) {
 
 		userTableBody.appendChild(tr);
 	});
-}
+};
